@@ -227,7 +227,7 @@ p {
     position: relative;
     display: flex;
     align-items: flex-start;
-    padding: 1rem 0;;
+    padding: 1rem 0;
     overflow: hidden;
 }
 
@@ -857,7 +857,7 @@ footer {
 
     .body-left img {
         margin: -2rem;
-        transform: rotate(-15deg);;
+        transform: rotate(-15deg);
     }
 
     .instructions-right, .instructions-left {
