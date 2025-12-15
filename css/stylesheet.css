@@ -228,12 +228,14 @@ p {
     display: flex;
     align-items: flex-start;
     padding: 1rem 0;
+    overflow: hidden;
 }
 
 .quote-hero {
     position: relative;
     display: flex;
     margin: 5rem 0 -6rem;
+    overflow: hidden;
 }
 
 .circle-bg {
