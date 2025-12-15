@@ -246,7 +246,9 @@ p {
     background-color: var(--acc-col2);
     border-radius: 9999px;
     z-index: 0;
-    margin: 1rem 19vw;
+    margin: 1rem auto;
+    left:50%;
+    transform: translateX(-50%)
     overflow: hidden;
 }
 
@@ -266,7 +268,7 @@ p {
 .quote-hero-dog {
     position: relative;
     top: -8vw;
-    right: 15vw;
+    right: 20rem;
     width: 70vw;
 }
 
