@@ -16,6 +16,7 @@ html {
     --acc-col2:#e2edf7;
     --acc-col3: #ffe36c;
     --acc-col4: #ed6dc2;
+    overflow-x: hidden;
 }
 
 body {
@@ -228,7 +229,7 @@ p {
     display: flex;
     align-items: flex-start;
     padding: 1rem 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .quote-hero {
@@ -266,7 +267,7 @@ p {
 .quote-hero-dog {
     position: relative;
     top: -8vw;
-    right: 20rem;
+    right: 15vw;
     width: 70vw;
 }
 
