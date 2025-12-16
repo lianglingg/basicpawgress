@@ -16,7 +16,6 @@ html {
     --acc-col2:#e2edf7;
     --acc-col3: #ffe36c;
     --acc-col4: #ed6dc2;
-    overflow-x: hidden;
 }
 
 body {
@@ -123,7 +122,6 @@ nav li {
 main {
     width: 70vw;
     margin: 0 auto;
-    overflow-x: hidden;
 }
 
 header {
@@ -229,27 +227,25 @@ p {
     position: relative;
     display: flex;
     align-items: flex-start;
-    padding: 1rem 0;
-    overflow: hidden;
+    padding: 1rem 0;;
 }
 
 .quote-hero {
     position: relative;
     display: flex;
     margin: 5rem 0 -6rem;
-    overflow: hidden;
 }
 
 .circle-bg {
-    position: absolute;
+    position: relative;
     width: 70vw;
     height: 70vw;
+    position: absolute;
     background-color: var(--acc-col2);
     border-radius: 9999px;
     z-index: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 1rem auto;
+    margin: 1rem 19vw;
+    overflow: hidden;
 }
 
 .quote-text {
@@ -258,7 +254,6 @@ p {
     text-align: left;
     top: 10rem;
     right: 30vw;
-    z-index: 1;
 }
 
 .quote-text h2 {
@@ -269,9 +264,8 @@ p {
 .quote-hero-dog {
     position: relative;
     top: -8vw;
-    right: 15vw;
+    right: 20rem;
     width: 70vw;
-    z-index: 2;
 }
 
 .cta-bone {
@@ -666,26 +660,23 @@ footer {
     .circle-bg{
         height: 90vw;
         width: 90vw;
-        margin: -3.5rem auto;
-        left: 50%;
-        transform: translateX(-50%);
+        margin: -3.5rem 0;
     }
 
     .quote-hero-dog {
         height: auto;
         position: relative;
         bottom: 0;
-        right: 0;
         width: 90vw;
-        margin: 0 auto;
     }
 
     .quote-text {
-        width: 70vw;
-        position: absolute;
+        width: 45vw;
+        position: relative;
         text-align: left;
         top: 1rem;
-        left: 5vw;
+        right: 65vw;
+
     }
 
     .quote-text h2 {
@@ -823,24 +814,22 @@ footer {
         height: 90vw;
         width: 90vw;
         top: -5rem;
-        left: 50%;
-        transform: translateX(-50%);
+        left: -15vw;
     }
 
     .quote-hero-dog {
         height: auto;
         position: relative;
         bottom: 0;
-        right: 5vw;
         width: 90vw;
     }
 
     .quote-text {
-        width: 40vw;
+        width: 35vw;
         position: relative;
         text-align: left;
         top: 3rem;
-        right: 48vw;
+        right: 54vw;
     }
 
     .quote-text h2 {
