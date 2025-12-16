@@ -817,7 +817,8 @@ footer {
         height: 90vw;
         width: 90vw;
         top: -5rem;
-        left: -15vw;
+        left: 50%;
+        transform: translateX(-50%)
     }
 
     .quote-hero-dog {
@@ -825,14 +826,15 @@ footer {
         position: relative;
         bottom: 0;
         width: 90vw;
+        right: 5vw;
     }
 
     .quote-text {
-        width: 35vw;
+        width: 40vw;
         position: relative;
         text-align: left;
         top: 3rem;
-        right: 54vw;
+        right: 48vw;
     }
 
     .quote-text h2 {
